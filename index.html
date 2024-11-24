@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div class="start">
+                    <button id="menu"><i class="fa-solid fa-bars-staggered" id="menu-icon"></i></button>
+                    <img src="logo.png" id="logo">
+                </div>
+                 <div class="center">
+                    <input type="text" placeholder="Search" id="search-bar">
+                    <button id="search-button">
+                        <i class="fa-solid fa-magnifying-glass" id="search-icon" ></i>
+                        <p class="hover-box">Search</p>
+                    </button>
+                    <button id="voice-search">
+                        <i class="fa-solid fa-microphone" id="voice-icon"></i>
+                        <p class="hover-box">Search with your voice</p>
+                    </button>
+                </div>
+                <div class="end">
+                    <button id=create-button>
+                        <i class="fa-solid fa-video" id="create-icon"></i>
+                        <p class="hover-box">Create</p>
+                    </button>
+                    <button id="notification-button">
+                        <i class="fa-regular fa-bell" id="bell-icon"></i>
+                        <p class="hover-box">Notifications</p>
+                        <p id="notification-count">3</p>
+                    </button>
+                        <img src="batman-cartoon-videos.webp" class="user-picture">
+                </div>
+            </div>
+            <nav>
+                <div id="sidebar">
+                    <button class="sidebar-button">
+                        <img src="icons/home.png">
+                        <p>Home</p>
+                    </button>
+                    <button class="sidebar-button">
+                        <img src="icons/shorts.png">
+                        <p>Shorts</p>
+                    </button>
+                    <button class="sidebar-button">
+                        <img src="icons/subs.png">
+                        <p>Subscriptions</p>
+                    </button>
+                    <button class="sidebar-button">
+                        <img src="icons/ytmusic.png">
+                        <p>Youtube Mu..</p>
+                    </button>
+                    <button class="sidebar-button">
+                        <img src="icons/you.png">
+                        <p>You</p>
+                    </button>
+                    <button class="sidebar-button">
+                        <img src="icons/download.png">
+                        <p>Downloads</p>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="video-grid">
+                <div class="content-box">
+                    <div class="thumbnail-row">
+                        <img src="thumbnail/thumbnail1.jpeg" class="thumbnail">
+                        <p class="video-time">6:01</p>
+                        </div>
+                    <div class="video-info-grid">
+                        <div class="profile-picture">
+                            <a href="https://www.youtube.com/@DavidDobrik"><img class="channel-picture" src="channel-logo/channel-logo1.jpg"></a>
+                                <div class="hover-channel">
+                                <img class="hover-image" src="channel-logo/channel-logo1.jpg">
+                                <div class="hover-stats">
+                                    <p class="hover-author">David Dobrik</p>
+                                    <pre class="hover-subscribers" >17.5M subscribers</pre>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">TELLING HER MY BIGGEST SECRET!!</p>
+                                <p class="video-author">David Dobrik</p>
+                                <p class="video-stats">11M views &middot 2 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail2.jpeg" class="thumbnail">
+                            <p class="video-time">25:03</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@mkbhd/featured"><img class="channel-picture" src="channel-logo/channel-logo3.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo3.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Marques Brownlee</p>
+                                        <p class="hover-subscribers" >19M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">The Worst Product I've Ever Reviewed... For Now</p>
+                                <p class="video-author">Marques Brownlee</p>
+                                <p class="video-stats">7.8M views &middot 1 month ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail3.jpeg" class="thumbnail">
+                            <p class="video-time">3:48</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@OneBitePizzaReviews"><img class="channel-picture" src="channel-logo/channel-logo11.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo11.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">One Bite Pizza Reviews</p>
+                                        <p class="hover-subscribers" >1.29M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Barstool Pizza Review - Lucali (Brooklyn,NY)</p>
+                                <p class="video-author">One Bite Pizza Reviews</p>
+                                <p class="video-stats">2M views &middot 5 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail4.jpeg" class="thumbnail">
+                            <p class="video-time">13:42</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@Archdigest"><img class="channel-picture" src="channel-logo/channel-logo12.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo12.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Architectural Digest</p>
+                                        <p class="hover-subscribers" >6.73M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Inside Diplo's Jamaican Jungle Paradise | Open Door | Architectural Digest</p>
+                                <p class="video-author">Architectural Digest</p>
+                                <p class="video-stats">2.2M views &middot 3 weeks ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail5.jpeg" class="thumbnail">
+                            <p class="video-time">11:46</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@Mrwhosetheboss"><img class="channel-picture" src="channel-logo/channel-logo4.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo4.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Mrwhosetheboss</p>
+                                        <p class="hover-subscribers" >18.9M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Dear Apple - The iPad needs help.</p>
+                                <p class="video-author">Mrwhosetheboss</p>
+                                <p class="video-stats">2M views &middot 12 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail6.jpeg" class="thumbnail">
+                            <p class="video-time">21:49</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@KaraandNate"><img class="channel-picture" src="channel-logo/channel-logo2.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo2.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Kara and Nate</p>
+                                        <p class="hover-subscribers" >3.86M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">WE BOARDED INDIA’S $28,000 LUXURY TRAIN (Maharajas Express 7 day journey)</p>
+                                <p class="video-author">Kara and Nate</p>
+                                <p class="video-stats">6M views &middot 1 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail7.jpeg" class="thumbnail">
+                            <p class="video-time">13:17</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@hook"><img class="channel-picture" src="channel-logo/channel-logo7.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo7.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Hook</p>
+                                        <p class="hover-subscribers" >820k subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">The Homeless Boy Who Invented Louis Vuitton</p>
+                                <p class="video-author">Hook</p>
+                                <p class="video-stats">13M views &middot 3 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail8.jpeg" class="thumbnail">
+                            <p class="video-time">21:48</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@MagnatesMedia"><img class="channel-picture" src="channel-logo/channel-logo6.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo6.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">MagnetsMedia</p>
+                                        <p class="hover-subscribers" >1.51M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">The Controversial Twins Who Own All The Bitcoin</p>
+                                <p class="video-author">MagnetsMedia</p>
+                                <p class="video-stats">1.9M views &middot 1 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail9.jpeg" class="thumbnail">
+                            <p class="video-time">36:07</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@YesTheory"><img class="channel-picture" src="channel-logo/channel-logo5.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo5.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Yes Theory</p>
+                                        <p class="hover-subscribers" >8.96M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Dangerous Journey to Europe’s Most Isolated Village</p>
+                                <p class="video-author">Yes Theory</p>
+                                <p class="video-stats">1.3M views &middot 2 weeks ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail10.jpg" class="thumbnail">
+                            <p class="video-time">25:26</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@veritasium"><img class="channel-picture" src="channel-logo/channel-logo10.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo10.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Veritasium</p>
+                                        <p class="hover-subscribers" >17.5M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">How Japanese Masters Turn Sand Into Swords</p>
+                                <p class="video-author">Veritasium</p>
+                                <p class="video-stats">15.7M views &middot 2 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail11.jpg" class="thumbnail">
+                            <p class="video-time">25:02</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@InsiderFood"><img class="channel-picture" src="channel-logo/channel-logo8.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo8.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Insider Food</p>
+                                        <p class="hover-subscribers" >4.99M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Finding The Best Full English Breakfast In London | Food Tours | Insider Food</p>
+                                <p class="video-author">Insider Food</p>
+                                <p class="video-stats">3.3M views &middot 1 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail12.jpg" class="thumbnail">
+                            <p class="video-time">31:44</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@johnnyharris"><img class="channel-picture" src="channel-logo/channel-logo9.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo9.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Johnny Harris</p>
+                                        <p class="hover-subscribers" >5.25M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Why Hacking is the Future of War</p>
+                                <p class="video-author">Johnny Harris</p>
+                                <p class="video-stats">2.3M views &middot 3 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail13.jpg" class="thumbnail">
+                            <p class="video-time">9:34</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@NickDiGiovanni/featured"><img class="channel-picture" src="channel-logo/channel-logo13.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo13.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Nick DiGiovanni</p>
+                                        <p class="hover-subscribers" >17.3M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">The Secret Behind Chicago Deep Dish Pizza</p>
+                                <p class="video-author">Nick DiGiovanni</p>
+                                <p class="video-stats">6.1M views &middot 2 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail14.jpg" class="thumbnail">
+                            <p class="video-time">4:56</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@EminemVEVO"><img class="channel-picture" src="channel-logo/channel-logo22.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo22.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">EminemMusic</p>
+                                        <p class="hover-subscribers" >60.5M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Eminem - Houdini [Official Music Video]</p>
+                                <p class="video-author">EminemMusic</p>
+                                <p class="video-stats">77M views &middot 2 weeks ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail15.jpg" class="thumbnail">
+                            <p class="video-time">9:04</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@casey"><img class="channel-picture" src="channel-logo/channel-logo24.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo24.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">CaseyNeistat</p>
+                                        <p class="hover-subscribers" >12.6M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">THE $21,000 FIRST CLASS AIRPLANE SEAT</p>
+                                <p class="video-author">CaseyNeistat</p>
+                                <p class="video-stats">79M views &middot 7 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail16.jpg" class="thumbnail">
+                            <p class="video-time">30:38</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@JoshuaWeissman/featured"><img class="channel-picture" src="channel-logo/channel-logo19.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo19.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Joshua Weissman</p>
+                                        <p class="hover-subscribers" >9.29M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">I Tried The Best Taco In The World</p>
+                                <p class="video-author">Joshua Weissman</p>
+                                <p class="video-stats">2.3M views &middot 9 days ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail17.jpg" class="thumbnail">
+                            <p class="video-time">10:08</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@CodeNoodles/featured"><img class="channel-picture" src="channel-logo/channel-logo16.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo16.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">CodeNoodles</p>
+                                        <p class="hover-subscribers" >77.7k subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Using Image Recognition to DESTROY Fruit Ninja</p>
+                                <p class="video-author">CodeNoodles</p>
+                                <p class="video-stats">550k views &middot 2 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail18.jpg" class="thumbnail">
+                            <p class="video-time">24:02</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@InsiderFood"><img class="channel-picture" src="channel-logo/channel-logo8.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo8.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Insider Food</p>
+                                        <p class="hover-subscribers" >4.99M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">US vs India KFC | Food Wars | Food Insider</p>
+                                <p class="video-author">Insider Food</p>
+                                <p class="video-stats">5.3M views &middot 1 year ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail19.jpg" class="thumbnail">
+                            <p class="video-time">2:30</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@sonypictures"><img class="channel-picture" src="channel-logo/channel-logo14.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo14.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Sony Pictures Entertainment</p>
+                                        <p class="hover-subscribers" >7.26M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">THE SOCIAL NETWORK - Official Trailer [2010] (HD)</p>
+                                <p class="video-author">Sony Pictures Entertainment</p>
+                                <p class="video-stats">15M views &middot 13 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail20.jpg" class="thumbnail">
+                            <p class="video-time">11:51</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@spoonfedstudy"><img class="channel-picture" src="channel-logo/channel-logo17.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo17.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">SpoonFedStudy</p>
+                                        <p class="hover-subscribers" >135k subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">It’s actually pretty easy to get ahead of 99% of people.</p>
+                                <p class="video-author">SpoonFedStudy</p>
+                                <p class="video-stats">1.7M views &middot 1 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail21.jpg" class="thumbnail">
+                            <p class="video-time">18:10</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@LowSpecGamer"><img class="channel-picture" src="channel-logo/channel-logo23.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo23.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">LowSpecGamer</p>
+                                        <p class="hover-subscribers" >928K subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">How Amateurs created the world’s most popular Processor (History of ARM Part 1)</p>
+                                <p class="video-author">LowSpecGamer</p>
+                                <p class="video-stats">799k views &middot 1 year ago</p>
+                            </div>
+                        </div>
+                    </div><div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail22.jpg" class="thumbnail">
+                            <p class="video-time">11:07</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@SpuddGaming/featured"><img class="channel-picture" src="channel-logo/channel-logo15.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo15.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Spudd Gaming</p>
+                                        <p class="hover-subscribers" >5.25M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">My ULTIMATE Gaming Setup Tour (2024 Edition!)</p>
+                                <p class="video-author">Spudd Gaming</p>
+                                <p class="video-stats">69k views &middot 2 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail23.jpg" class="thumbnail">
+                            <p class="video-time">15:37</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@Fireship"><img class="channel-picture" src="channel-logo/channel-logo20.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo20.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Fireship</p>
+                                        <p class="hover-subscribers" >3.1M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Build a Mindblowing 3D Portfolio Website // Three.js Beginner’s Tutorial</p>
+                                <p class="video-author">Fireship</p>
+                                <p class="video-stats">2.5M views &middot 3 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-box">
+                        <div class="thumbnail-row">
+                            <img src="thumbnail/thumbnail24.jpg" class="thumbnail">
+                            <p class="video-time">3:08</p>
+                        </div>
+                        <div class="video-info-grid">
+                            <div class="profile-picture">
+                                <a href="https://www.youtube.com/@Forbes"><img class="channel-picture" src="channel-logo/channel-logo21.jpg"></a>
+                                <div class="hover-channel">
+                                    <img class="hover-image" src="channel-logo/channel-logo21.jpg">
+                                    <div class="hover-stats">
+                                        <p class="hover-author">Forbes</p>
+                                        <p class="hover-subscribers" >1.67M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="video-title">Where The World's Billionaires Live</p>
+                                <p class="video-author">Forbes</p>
+                                <p class="video-stats">224k views &middot 2 months ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
